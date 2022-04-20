@@ -1,0 +1,17 @@
+Package: ElfTri
+Type: Package
+Title: Squid Game Twitter data through Peirce's Sign Theory.
+Version: 0.1.0
+Author: Connor Elfers
+Maintainer: The package maintainer <elfers.connor@gmail.com>
+Description: This package analyzes Twitter data collected from uses about the (recent) Squid Games Netflix show. 
+   The analysis consists of techniques from Pierce's Sign theory which includes analysis through triangulation methods
+   by focusing on a tweet's likes(Impressions), retweets(Twitter_Activity), and Engagement. This package also includes pre-
+   made functions in order to view analysis results. Function: graph.token tokenizes the tweet's comments, cleans and removes stopwords,
+   arranges them by top 15 most frequent terms, and graphs them for your viewing pleasure. Function: graph.sentiment does the same
+   thing as graph.tokenize but groups the terms based of a negative/positive sentiment and graphs top 10 for each group. Function:
+   graph.trio produces 3 different graphs based off triangulation of the previous three aforementioned elements. The graphs include a 
+   bar graph, line graph, and bubble graph. Other functions can be found in the markdown file with explanations.
+License: CCO
+Encoding: UTF-8
+LazyData: true
